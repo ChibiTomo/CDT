@@ -1,6 +1,6 @@
 #include "Exceptions.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 
 	Exception::Exception(File file, int line) :
 		m_file(file),

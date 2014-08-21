@@ -7,7 +7,7 @@
 
 #define SINGLETON(class) friend class ASingleton<class>
 
-namespace ChibiDevTools {
+namespace cdt {
 
 	template<class T>
 	class ASingleton {

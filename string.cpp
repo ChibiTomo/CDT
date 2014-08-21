@@ -3,7 +3,7 @@
 
 #include "string.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 	bool strStartsWith(const std::string& str, const std::string& needle) {
 		size_t pos = str.find(needle);
 		return pos == 0;

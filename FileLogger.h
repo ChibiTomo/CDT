@@ -4,7 +4,7 @@
 #include "ALogger.h"
 #include "File.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 	class FileLogger : public ALogger
 	{
 		public:

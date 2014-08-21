@@ -3,7 +3,7 @@
 
 #include <string>
 
-namespace ChibiDevTools {
+namespace cdt {
 
 	bool strStartsWith(const std::string& str, const std::string& needle);
 	bool strEndsWith(const std::string& str, const std::string& needle);

@@ -1,6 +1,6 @@
 #include "LoggerConsole.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 	void LoggerConsole::_write(const std::string& toLog) {
 		std::cout << toLog;
 	}

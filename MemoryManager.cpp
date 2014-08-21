@@ -3,7 +3,7 @@
 #include "MemManagerOff.h"
 #include "MemoryManager.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 	MemoryManager MemoryManager::__memManager;
 
 	BadDeleteException::BadDeleteException(File file, int line, void* ptr, bool isArray) :

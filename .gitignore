@@ -1,3 +1,6 @@
 bin
 obj
-ChibiDevTools*
+ChibiDevTools.cbp
+ChibiDevTools.cscope_file_list
+ChibiDevTools.depend
+ChibiDevTools.layout

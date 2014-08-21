@@ -8,7 +8,7 @@
 #include "Map.h"
 #include "Exceptions.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 	struct BadDeleteException : public Exception {
 		BadDeleteException(File file, int line, void* ptr, bool isArray);
 	};

@@ -1,6 +1,6 @@
 #include "Map.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 
 	UnknownKeyException::UnknownKeyException(File file, int line, const std::string& key) :
 		Exception(file, line) {

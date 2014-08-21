@@ -8,7 +8,7 @@
 #include "Exceptions.h"
 #include "string.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 
 	File::File(const std::string& name) : m_name(name) {
 		_init();

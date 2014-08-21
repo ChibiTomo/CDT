@@ -8,9 +8,9 @@
 #include "File.h"
 
 #define THROW_UNKNOWN_KEY_EXCEPTION(key) \
-	throw ChibiDevTools::UnknownKeyException(ChibiDevTools::File(__FILE__), __LINE__, #key);
+	throw cdt::UnknownKeyException(cdt::File(__FILE__), __LINE__, #key);
 
-namespace ChibiDevTools {
+namespace cdt {
 
 	struct UnknownKeyException : public Exception {
 		UnknownKeyException(File file, int line, const std::string& key);

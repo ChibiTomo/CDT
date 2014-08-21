@@ -2,7 +2,7 @@
 
 #include "ALogger.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 	ALogger::ALogger() {}
 	ALogger::~ALogger() {}
 

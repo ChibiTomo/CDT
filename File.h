@@ -4,7 +4,7 @@
 #include <sys/stat.h>
 #include <cstring>
 
-namespace ChibiDevTools {
+namespace cdt {
 
 	class File {
 		public:

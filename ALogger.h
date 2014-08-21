@@ -4,7 +4,7 @@
 #include <string>
 #include <sstream>
 
-namespace ChibiDevTools {
+namespace cdt {
 
 	class ALogger {
 		public:

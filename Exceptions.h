@@ -7,7 +7,7 @@
 
 #include "File.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 
 	class Exception : std::exception {
 		public:
@@ -38,15 +38,15 @@ namespace ChibiDevTools {
 
 #define ASSERT_MSG(condition, msg) \
 	if (!(condition)) \
-		throw ChibiDevTools::AssertException( \
-							ChibiDevTools::File(__FILE__), \
+		throw cdt::AssertException( \
+							cdt::File(__FILE__), \
 							__LINE__, \
 							msg)
 
 #define ASSERT_NOT_NULL(ptr) \
 	if (ptr == NULL) \
-		throw ChibiDevTools::AssertException( \
-							ChibiDevTools::File(__FILE__), \
+		throw cdt::AssertException( \
+							cdt::File(__FILE__), \
 							__LINE__, \
 							#ptr)
 

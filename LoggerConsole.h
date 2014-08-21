@@ -5,7 +5,7 @@
 
 #include "ALogger.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 	class LoggerConsole : public ALogger {
 		private:
 			virtual void _write(const std::string& toLog);

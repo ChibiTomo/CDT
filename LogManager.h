@@ -7,7 +7,7 @@
 #include "ALogger.h"
 #include "Map.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 
 	class LogManager : public ASingleton<LogManager> {
 		friend class ASingleton<LogManager>;

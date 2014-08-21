@@ -3,7 +3,7 @@
 
 #include "FileLogger.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 	FileLogger::FileLogger(const std::string& filePath, const std::string& title, bool overwrite)
 			: m_file(filePath), m_title(title) {
 		if (overwrite) {

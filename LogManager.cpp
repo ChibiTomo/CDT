@@ -2,7 +2,7 @@
 
 #include "MemManagerOn.h"
 
-namespace ChibiDevTools {
+namespace cdt {
 
 	LogManager::LogManager() : m_last(NULL) {}
 
